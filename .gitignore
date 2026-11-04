@@ -1,21 +1,55 @@
+# Dependencies
+node_modules/
+jspm_packages/
+bower_components/
+web_modules/
+
+# Build output
+dist/
+dist-ssr/
+build/Release/
+.next/
+out/
+.nuxt/
+.output/
+.cache/
+.parcel-cache/
+.vite/
+.astro/
+.turbo/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+report.*.*.*.*.json
 
-node_modules
-dist
-dist-ssr
-*.local
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
 
-# Editor directories and files
+# Coverage
+coverage/
+.nyc_output/
+*.lcov
+lib-cov/
+
+# Editor files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.vscode-test/
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
@@ -23,6 +57,32 @@ dist-ssr
 *.sln
 *.sw?
 
-.env
-.env.*
-!.env.example
+# Package manager
+.npm/
+.pnpm-store/
+.yarn-integrity
+.pnp.*
+
+# Tool caches
+.grunt/
+.fusebox/
+.dynamodb/
+.firebase/
+.tern-port
+.serverless/
+.docusaurus/
+.svelte-kit/
+.vuepress/dist/
+**/.vitepress/dist/
+**/.vitepress/cache/
+.astro/
+.turbo/
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+.node_repl_history
+*.tgz
+
+# Vite temporary files
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
